@@ -11,7 +11,7 @@ function App() {
             <li><a href="https://amanda-mccabe.github.io/PokeGo_Helper/src/App/">Home</a></li>
             <li><a href="https://amanda-mccabe.github.io/PokeGo_Helper/src/PokedexPage/">Pokedex</a></li>
             <li><a href="https://amanda-mccabe.github.io/PokeGo_Helper/src/SearchStrings/">Search Strings</a></li>
-            <li> <a href="https://amanda-mccabe.github.io/PokeGo_Helper/src/RaidTeams">Raid Teams</a></li>
+            <li><a href="https://amanda-mccabe.github.io/PokeGo_Helper/src/RaidTeams">Raid Teams</a></li>
             <li><a href="https://amanda-mccabe.github.io/PokeGo_Helper/src/LogOut/">Log Out</a></li>
           </ul>
         </nav>
@@ -23,7 +23,9 @@ function App() {
         <p>Here you will see a list of things you have done recently!</p>
       </section>
 
-      <footer>&copy;AMANDA MCCABE GOTTA CATCH'EM ALL!!!!</footer>
+      <footer>
+        &copy;AMANDA MCCABE GOTTA CATCH'EM ALL!!!!
+      </footer>
     </main>
   );
 }
