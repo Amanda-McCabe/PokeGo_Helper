@@ -1,0 +1,73 @@
+/* nav styles */
+
+header nav{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(88, 88, 179);
+}
+
+header nav ul{
+    display: flex;
+    padding-left: 10;
+    list-style: none;
+}
+
+header nav ul li{
+    display: flex;
+    flex-direction: row; 
+}
+
+header nav ul li a{
+    margin: 0 40px 0 0;
+    color: rgb(238, 226, 56);
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+body{
+    background-color: black;
+}
+
+h1{
+    color: white;
+}
+
+h3{
+    color: white;
+    position: fixed;
+    top: 10;
+    right: 0;
+}
+
+p{
+    color: white;
+}
+
+footer{
+    color: rgb(238, 226, 56);
+    background-color: rgb(88, 88, 179);
+    text-align: center; 
+    font-size: 15px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* nav style desktop */
+
+@media all and (min-width: 600px) {
+
+    header nav ul li a{
+        margin: 0 100px 0 0;
+        font-size: 30px;
+    }
+
+    footer{
+        margin: 0;
+        text-align: center;
+        font-size: 30px;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+}
